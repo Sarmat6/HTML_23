@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.main_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.d_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd_colum{
+    flex-direction: column;
+}
+.main_form{
+    width: 30vw;
+    height: 70vh;
+    border: 2px #534e4e;
+}
+.log_in{
+    height: 65vh;
+    width: 25vw;
+    margin-bottom: 2vh;
+}
+.d_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.border{
+    border: 2px #dfdfdf solid;
+}
+button{
+    width: 20.5vw;
+    height: 4vh;
+    background: #67b4f8;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 40px;
+}
+h3{
+    margin-top: 40px;
+    color: #727272;
+}
+.color{
+    color: #375084;
+}
+input{
+    width: 20vw;
+    height: 4vh;
+    margin: 20px  0 0 0;
+}
+.instagram{
+    width: 13vw;
+    margin: 2vh;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+body{
+    margin: 0;
+}
+.all_div_hw2_1 {
+    height: 200px;
+    width: 200px;
+    background: #fbdfc0;
+    display: flex;
+    margin: 50px 0 0 115px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+/*____________________________________________*/
+
+.main_div{
+    width: 100%;
+    height: 200px;
+    background: #fde0c2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second_div{
+    height: 100px;
+    width: 100px;
+    background: brown;
+    transition: 0.5s;
+
+}
+.second_div:hover{
+    background: #43a272;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+/*____________________________________________*/
+
+.widgets{
+    width: 98%;
+    height: 500px;
+    border-radius: 30px;
+    border: 15px solid white;
+    background: #2169ba;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d_flex{
+    display: flex;
+}
+.little_widgets{
+    height: 500px;
+    width: 538px;
+    border-radius: 30px;
+    border: 15px solid white;
+    background: #164479;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    width: 98%;
+    height: 1000px;
+    border-radius: 30px;
+    border: 15px solid white;
+    background: #2169ba;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

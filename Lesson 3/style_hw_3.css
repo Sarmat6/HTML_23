@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+/*hw1_1*/
+
+.header{
+    height: 20vh;
+    background: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 35vh;
+    background: #b9b4b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d_flex{
+    display: flex;
+}
+.article{
+    height: 35vh;
+    width: 60vw;
+    background: #979494;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    height: 35vh;
+    width: 40vw;
+    background: #706a6a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_hw_3_1_1{
+    height: 10vh;
+    background: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*hw1_2*/
+
+.nav{
+    height: 10vh;
+    background: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_1{
+    height: 80vh;
+    width: 33.33vw;
+    background: #a8a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_2{
+    height: 80vh;
+    width: 33.33vw;
+    background: #807a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_3{
+    height: 80vh;
+    width: 33.33vw;
+    background: #534e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_hw_3_1_2{
+    height: 10vh;
+    background: #b7b2b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*hw2*/
+.div_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*padding: 100px;*/
+}
+.p100{
+    padding: 100px;
+}
+#first{
+    height: 100vh;
+    background: #c3705c;
+}
+#second{
+    height: 100vh;
+    background: #8be9e1;
+}
+#third{
+    height: 100vh;
+    background: #51c474;
+}
+
+
+/*hw3*/
+
+.head{
+    height: 50vh;
+    background: #fdbfc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+    padding: 100px;
+}
+.footer_hw_3_3{
+    height: 50vh;
+    background: #272727;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
