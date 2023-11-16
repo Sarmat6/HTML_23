@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #0E2F4B
+}
+h2{
+    font-size: 48px;
+}
+a{
+    text-decoration: none;
+    color: #99A2AA;
+}
+input{
+    border: none;
+    padding-left: 30px;
+}
+button{
+    border: none;
+    font-size: 20px;
+}
+
+.d_flex{
+    display: flex;
+}
+.border_radius_10{
+    border-radius: 10px;
+}
+.font_open_sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.font700{
+    font-weight: 700;
+}
+.font_size_24{
+    font-size: 24px;
+}
+.a_more{
+    font-size: 14px;
+    color: #0E2F4B;
+}
+/*_____________________________________wrappers____________________________________*/
+.wrapper135{
+    margin: 0 135px;
+}
+.wrapper120{
+    margin: 0 120px;
+}
+.wrapper_p_135{
+    padding-left: 135px;
+}
+/*______________________________________colors____________________________________*/
+.color_white{
+    color: #FFFFFF;
+}
+.color_gray{
+    color: #99A2AA;
+}
+/*____________________________________backgrounds____________________________________*/
+.background_white{
+    background: #FFFFFF;
+}
+.background_yellow{
+    background: #FEC524;
+}
+.background_gray{
+    background: #F8F8F8;
+}
+.background_lite_yellow{
+    background: #FDC13D;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+header{
+    height: 80px;
+    padding-top: 25px;
+}
+header img{
+    height: 50px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!nav!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+nav {
+    height: 60px;
+    grid-column-gap: 30px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!tabpanel!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.tabpanel{
+    height: 450px;
+}
+.tabpanel h2{
+    padding-top: 54px;
+    font-size: 44px;
+}
+.tabpanel p{
+    padding-top: 34px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!postal_services!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.postal_services{
+    height: 800px;
+}
+.postal_services_box{
+    position: relative;
+    bottom: 113px;
+    padding: 31px 0 0 15px;
+}
+.postal_services_big{
+    height: 630px;
+    width: 400px;
+    padding: 31px 16px;
+
+}
+.postal_services_big p{
+    padding-bottom: 18px;
+}
+.postal_services_big h2{
+    padding-bottom: 36px;
+}
+.postal_services_small{
+    height: 180px;
+    width: 370px;
+    margin: 15px;
+}
+.postal_services_small h4{
+    font-size: 24px;
+    padding-bottom: 13px;
+}
+.forms{
+    height: 212px;
+    width: 1200px;
+    position: relative;
+    bottom: 158px;
+    padding: 30px 0 0 15px;
+}
+.forms input{
+    height: 72px;
+    width: 570px;
+    box-shadow: 0 3px 35px 0 #5F62662B;
+}
+.forms>.d_flex div{
+    height: 80px;
+    width: 270px;
+    margin: 30px 30px 0 0;
+    box-shadow: 0 3px 35px 0 #5F62662B;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 24px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!agitation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.agitation{
+    height: 660px;
+    background: #042C4B;
+    padding-top: 120px;
+}
+.agitation_box{
+    height: 390px;
+    width: 1170px;
+}
+.agitation_box_child{
+    height: 390px;
+    width: 700px;
+    padding: 31px 15px;
+}
+.agitation p{
+    padding: 36px 0 44px 0;
+}
+.agitation button{
+    height: 80px;
+    width: 305px;
+    margin: 0 15px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!financial_services!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.financial_services{
+    height: 880px;
+    padding-top: 100px;
+}
+.financial_services_box{
+    height: 780px;
+    width: 1200px;
+    padding-left: 15px;
+}
+.financial_services_box_child{
+    height: 220px;
+    width: 1170px;
+    padding: 50px 0 0 75px;
+}
+.financial_services_box_child p{
+    padding-top: 15px;
+}
+.financial_services_link{
+    height: 270px;
+    width: 270px;
+    padding: 32px 0 0 30px;
+}
+.financial_services_link h4{
+    width: 100px;
+}
+.financial_services_link p{
+    padding-top: 13px;
+}
+.financial_services_box_child h4{
+    width: 1020px;
+}
+.financial_services h2{
+    padding: 121px 0 32px 0;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!index!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.index{
+    height: 635px;
+    background: #0E2F4B;
+    padding-top: 134px;
+}
+.index_box{
+    width: 1200px;
+    height: 365px;
+    padding-left: 15px;
+}
+.index form{
+    padding-top: 80px;
+}
+.index input{
+    height: 78px;
+    width: 506px;
+}
+.index button{
+    height: 80px;
+    width: 249px;
+    margin-left: 11px;
+}
+.index_box h2{
+    padding-top: 31px;
+}
+.index_box p{
+    padding-top: 36px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!news!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.news{
+    height: 1304px;
+    padding-top: 100px;
+}
+.news_box{
+    height: 1124px;
+    width: 1200px;
+    padding: 30px 15px;
+}
+.news_box_child_1{
+    height: 250px;
+    width: 570px;
+    padding: 30px 0 0 30px;
+    margin: 15px;
+}
+.news_box_child_2{
+    height: 92px;
+    width: 370px;
+    padding-left: 40px;
+    margin: 15px;
+    align-items: center;
+    display: flex;
+}
+.news_legal_entities{
+    margin: 96px 0 47px 0;
+}
+.news img{
+    margin-right: 20px;
+}
+.news h2{
+    padding-bottom: 17px;
+}
+.news .font700{
+    font-size: 18px;
+}
+.news_box_child_1 > p{
+    padding-top: 24px;
+}
+.news_box_child_2 > p{
+    font-size: 20px;
+}
+.news .color_gray{
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!online_services!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.online_services{
+    height: 500px;
+    padding-top: 90px;
+}
+.online_services_box{
+    width: 1158px;
+    height: 362px;
+    padding-top: 31px;
+}
+.online_services_box .font_open_sans p{
+    padding-top: 36px;
+}
+.online_services a{
+    margin-right: 22px;
+}
+.online_services img{
+    padding-top: 15px;
+}
+.online_services .font700{
+    margin-top: 30px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+footer{
+    height: 789px;
+    background: #1D2023;
+}
+.footer_box{
+    height: 789px;
+    width: 1200px;
+}
+.footer_box_child{
+    height: 681px;
+    border-bottom: 1px solid #99A2AA;
+    justify-content: space-between;
+}
+.footer_text{
+    width: 300px;
+    height: 630px;
+    padding-top: 100px;
+}
+footer p{
+    margin-top: 15px;
+}
+footer .color_white{
+    margin-bottom: 23px;
+}
